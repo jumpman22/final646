@@ -16,18 +16,23 @@
         "border-radius":    "0px 5px 0px 5px",
         "background-color": "#DFE3E6"
         });
+          
         $(".navigation").css({
         "border":           "1px solid #929CA4",
         "color":            "#CC1C0D",
         "padding":          "20px 3px 20px 3px",
         "background-color": "#DFE3E6"
         });
+
         $("p").removeClass("vprospect");
         $("p").removeClass("vconvert");
         $("p").removeClass("vretain");
-//        $("aside").css({
-//        "color":    "purple";    
-//        }); 
+          
+        $("aside p:last").append("<br>Chevy Dealers Association");
+        $("aside p:first").wrap("<q></q>");
+        $("aside p:first").css({"font-style":"italic"});
+        
+        $("b").html("<a href='http://www.vectacorp.com'>Vecta Corporation</a>");
       });
   </script>
 </head>
