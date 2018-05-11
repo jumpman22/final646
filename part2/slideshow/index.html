@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slideshow</title>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        /*  ------ script for slide show  ---------------*/
+
+        $(function(){
+            $('#slidepics img:gt(0)').hide();
+            setInterval(function(){
+                $('#slidepics :first-child').fadeOut(1000)
+                .next('img').fadeIn(1000)
+                .end().appendTo('#slidepics');}, 3000);
+
+        });
+
+        });
+    
+    
+    
+    </script>
+    <style>
+         #slidepics img {
+             width:400px; height:300px; padding:0px; margin:0px}
+    </style>
+</head>
+<body>
+    <div id="slidepics">
+        <img src="img/img1.jpg">
+        <img src="img/img2.jpg">
+        <img src="img/img3.jpg">
+        <img src="img/img4.jpg">
+        <img src="img/img5.jpg">
+    </div>
+</body>
+</html>
