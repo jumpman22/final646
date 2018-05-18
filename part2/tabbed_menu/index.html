@@ -1,40 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>jQuery Tabbed Menu</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="scripts/script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Tabs - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs(); 
+      
+  } );
+  </script>
 </head>
 <body>
-    <div id="mainContent">
-<div id="navButtons"></div>
-
-  <ul id="monsterNav">
-        <li><a href="#tres">Tres</a></li>
-        <li><a href="#seasorus">Seasourus</a></li>
-        <li><a href="#tippy">Tippy</a></li>
-        <li><a href="#p3">P3</a></li>
-        <li><a href="#scooter">Scooter</a></li>
+ 
+<div class="container">
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Biography</a></li>
+    <li><a href="#tabs-2">Accolades</a></li>
+    <li><a href="#tabs-3">Community Service</a></li>
   </ul>
-<div id="mDescrip">
-<p id="tres">Tres is a nice little monster. He likes to eat a lot - that's why he has three heads. His tummy square is special because it can sprout out wings. He likes numbers because his name is Tres. He likes to dance a lot so if you are having a party watch out! You may also need to make extra cake for this little guy, his appetite is extra 'grande'!</p>
-<div class="clear"></div>
-     
-<p id="seasorus">Seasourus is a magical creature. He can fly, swim and walk. His tail feathers look funny but they really are useful; When they wave and light up and send out sparkles, spreading magic everywhere. Seasourus likes to eat sea grass, regular grass and cloud puffs. Seasourus is a good monster. </p>
-<div class="clear"></div>
+  <div id="tabs-1">
+    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. 
+    </p>
+    <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+  </div>
+  <div id="tabs-2">
+    <p>Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?<br><br>
 
-<p id="tippy">Tippy is a strong monster, he is able to lift up a bus by his hair He likes to play jokes and scare flowers, but he is usually nice to humans. His hair is a bit magical because when he scares the flowers his hair lights up and sends pretend sparks everywhere. Hi face lines are for scaring flowers too. His tiny legs are really tippy, hence the name. </p>
-<div class="clear"></div>
-
-<p id="p3">P3 stands for Purple Polka-dotted Pussycat. P3 is a flying monster. She has bird like legs which enable her to stand on land and walk but she can not walk. Her arms which are on her backside are used usually to fly and pickup food. The polka-dots on the wings are important for flying, they help her to get very fast and glide about 4 meters. She is a good flying monster.</p>
-<div class="clear"></div>
-
-<p id="scooter">Scooter is a well trained scooter rider. She can do flips and 360's. Scooter is a hyper monster, she can fly too. She can ride a scooter in the air, her curly like ears help her if she lands on her head, they uncurl and land on the ground so she doesn't get hurt. Her small legs don't keep her from going fast, her wings will help her to glide along the side walk very speedily. The thing on her tummy is for making a little friend to stay with, she does not like to be lonely. She would like to be friends with you - if you can catch her. </p>
-<div class="clear">
+    Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.
+    </p>
+  </div>
+  <div id="tabs-3">
+    <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
+  </div>
 </div>
-</div>
-</div>
+</div> 
+ 
 </body>
 </html>
