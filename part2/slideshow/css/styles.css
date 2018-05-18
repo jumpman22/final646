@@ -1,4 +1,9 @@
 .slidepics img {
-    width:400px; height:300px; padding:0px; margin:0px
+    height:650px; padding:0px; margin:0px;		
 }
 
+li.slick-active {
+	color: red;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
