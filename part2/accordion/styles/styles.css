@@ -1,0 +1,7 @@
+.ui-accordion-header-active {
+    background: #88B526;
+}
+
+.ui-accordion-header-collapsed {
+    background: #40CFB4;   
+}
